@@ -5,6 +5,13 @@
     <Nullable>enable</Nullable>
     <UseWPF>true</UseWPF>
     <LangVersion>latest</LangVersion>
+    <Title>Utilities for Windows Presentation Foundation</Title>
+    <Version>1.0.0</Version>
+    <Description>Utilities for Windows Presentation Foundation</Description>
+    <Copyright>Copyright 2023 EleCho</Copyright>
+    <PackageProjectUrl>https://github.com/OrgEleCho/EleCho.WpfUtilities</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/OrgEleCho/EleCho.WpfUtilities</RepositoryUrl>
+    <PackageTags>WPF,Utilities</PackageTags>
   </PropertyGroup>
 
 </Project>

@@ -9,21 +9,11 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto">
-            <flex:FlexPanel Direction="Row" MainAlignment="SpaceBetween" CrossAlignment="Start" ItemsAlignment="Start" Wrap="NoWrap">
+            <flex:FlexPanel Direction="Row" MainAlignment="SpaceBetween" CrossAlignment="Start" ItemsAlignment="Start" Wrap="Wrap">
                 <Rectangle Fill="Pink" Width="200" Height="200"/>
                 <Rectangle Fill="Purple" Width="150" Height="150"/>
                 <Rectangle Fill="BlueViolet" Width="200" Height="200"/>
-                <Rectangle Fill="Pink" Width="200" Height="200"/>
-                <Rectangle Fill="Purple" Width="150" Height="150"/>
-                <Rectangle Fill="BlueViolet" Width="200" Height="200"/>
-                <Rectangle Fill="Pink" Width="200" Height="200"/>
-                <Rectangle Fill="Purple" Width="150" Height="150"/>
-                <Rectangle Fill="BlueViolet" Width="200" Height="200"/>
-                <Rectangle Fill="Pink" Width="200" Height="200"/>
-                <Rectangle Fill="Purple" Width="150" Height="150"/>
-                <Rectangle Fill="BlueViolet" Width="200" Height="200"/>
-                <Rectangle Fill="Pink" Width="200" Height="200"/>
-                <Rectangle Fill="Purple" Width="150" Height="150"/>
+                <Rectangle Fill="Fuchsia" Width="150" Height="150"/>
                 <Rectangle Fill="BlueViolet" Width="200" Height="200"/>
             </flex:FlexPanel>
         </ScrollViewer>
