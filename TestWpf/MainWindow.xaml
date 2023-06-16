@@ -8,14 +8,14 @@
         xmlns:flex="clr-namespace:EleCho.WpfUtilities.FlexLayout;assembly=EleCho.WpfUtilities.FlexLayout"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto">
-            <flex:FlexPanel Direction="Row" MainAlignment="SpaceBetween" CrossAlignment="Start" ItemsAlignment="Start" Wrap="Wrap">
+        <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled">
+            <flex:FlexPanel Direction="Row" MainAlignment="SpaceAround" CrossAlignment="Start" ItemsAlignment="Center" Wrap="Wrap" UniformShrink="1">
                 <Rectangle Fill="Pink" Width="200" Height="200"/>
                 <Rectangle Fill="Purple" Width="150" Height="150"/>
                 <Rectangle Fill="BlueViolet" Width="200" Height="200"/>
-                <Rectangle Fill="Fuchsia" Width="150" Height="150"/>
+                <Rectangle Fill="Fuchsia" Width="150" Height="150" flex:FlexPanel.SelfAlignment="Start"/>
                 <Rectangle Fill="BlueViolet" Width="200" Height="200"/>
-            </flex:FlexPanel>
+            </flex:FlexPanel> 
         </ScrollViewer>
     </Grid>
 </Window>
