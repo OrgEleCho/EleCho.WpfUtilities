@@ -9,7 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestWpf", "TestWpf\TestWpf.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EleCho.WpfUtilities.FlexLayout", "EleCho.WpfUtilities.FlexLayout\EleCho.WpfUtilities.FlexLayout.csproj", "{1E7846CD-B218-4592-83C6-6E13BED78C94}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EleCho.WpfUtilities.GridLayout", "EleCho.WpfUtilities.GridLayout\EleCho.WpfUtilities.GridLayout.csproj", "{F234CFFE-FB25-46A3-8A6D-35BD615B7CB2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EleCho.WpfUtilities.GridLayout", "EleCho.WpfUtilities.GridLayout\EleCho.WpfUtilities.GridLayout.csproj", "{F234CFFE-FB25-46A3-8A6D-35BD615B7CB2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EleCho.WpfUtilities.BindingProxy", "EleCho.WpfUtilities.BindingProxy\EleCho.WpfUtilities.BindingProxy.csproj", "{03BDDDD6-5CD7-4197-BAA1-B981905E5E7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EleCho.WpfUtilities.ConditionControls", "EleCho.WpfUtilities.ConditionControls\EleCho.WpfUtilities.ConditionControls.csproj", "{A1DE52BD-E3C1-4BC8-90D5-D6910C88D795}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{F234CFFE-FB25-46A3-8A6D-35BD615B7CB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F234CFFE-FB25-46A3-8A6D-35BD615B7CB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F234CFFE-FB25-46A3-8A6D-35BD615B7CB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03BDDDD6-5CD7-4197-BAA1-B981905E5E7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03BDDDD6-5CD7-4197-BAA1-B981905E5E7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03BDDDD6-5CD7-4197-BAA1-B981905E5E7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03BDDDD6-5CD7-4197-BAA1-B981905E5E7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1DE52BD-E3C1-4BC8-90D5-D6910C88D795}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1DE52BD-E3C1-4BC8-90D5-D6910C88D795}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1DE52BD-E3C1-4BC8-90D5-D6910C88D795}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1DE52BD-E3C1-4BC8-90D5-D6910C88D795}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

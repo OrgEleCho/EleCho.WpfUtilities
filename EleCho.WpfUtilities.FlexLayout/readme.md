@@ -30,8 +30,8 @@ Implementation of Flex Layout in WPF
 | --- | --- | --- |
 | Direction | The layout direction of the FlexPanel | flex-direction |
 | Wrap | Whether or not to wrap items onto multiple lines | flex-wrap |
-| MainAlignment | The alignment of items along the main axis | justify-content |
-| CrossAlignment | The alignment of items along the cross axis | align-content |
+| MainAlignment | The alignment of content along the main axis | justify-content |
+| CrossAlignment | The alignment of content along the cross axis | align-content |
 | ItemsAlignment | The alignment of individual items along the cross axis | align-items |
 | SelfAlignment | The alignment of an individual item along the cross axis | align-self |
 | UniformGrow | The default grow value for items in the container | grow |

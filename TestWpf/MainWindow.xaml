@@ -6,9 +6,10 @@
         xmlns:local="clr-namespace:TestWpf"
         mc:Ignorable="d"
         xmlns:flex="clr-namespace:EleCho.WpfUtilities.FlexLayout;assembly=EleCho.WpfUtilities.FlexLayout"
+        xmlns:condition="clr-namespace:EleCho.WpfUtilities.ConditionControls;assembly=EleCho.WpfUtilities.ConditionControls"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled">
+        <!--<ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled">
             <flex:FlexPanel Direction="Row" MainAlignment="SpaceAround" CrossAlignment="Start" ItemsAlignment="Center" Wrap="Wrap" UniformShrink="1">
                 <Rectangle Fill="Pink" Width="200" Height="200"/>
                 <Rectangle Fill="Purple" Width="150" Height="150"/>
@@ -16,6 +17,26 @@
                 <Rectangle Fill="Fuchsia" Width="150" Height="150" flex:FlexPanel.SelfAlignment="Start"/>
                 <Rectangle Fill="BlueViolet" Width="200" Height="200"/>
             </flex:FlexPanel> 
-        </ScrollViewer>
+        </ScrollViewer>-->
+
+        <StackPanel>
+            <CheckBox Content="Test" Name="checkbox"/>
+            <condition:IfControl Condition="{Binding ElementName=checkbox,Path=IsChecked}">
+                <condition:IfControl.Then>
+                    <TextBlock Text="QWQ"/>
+                </condition:IfControl.Then>
+            </condition:IfControl>
+            
+            
+
+
+            <Slider Width="120" Name="slider" SmallChange="1" Value="1" LargeChange="2"/>
+            <TextBlock Text="{Binding ElementName=slider,Path=Value}" />
+            <condition:MatchControl Value="{Binding ElementName=slider,Path=Value}">
+                <condition:MatchCase DoubleValue="1.0" Content="Hello"/>
+                <condition:MatchCase DoubleValue="2.0" Content="World"/>
+            </condition:MatchControl>
+        </StackPanel>
+
     </Grid>
 </Window>

@@ -8,6 +8,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\EleCho.WpfUtilities.BindingProxy\EleCho.WpfUtilities.BindingProxy.csproj" />
+    <ProjectReference Include="..\EleCho.WpfUtilities.ConditionControls\EleCho.WpfUtilities.ConditionControls.csproj" />
     <ProjectReference Include="..\EleCho.WpfUtilities.FlexLayout\EleCho.WpfUtilities.FlexLayout.csproj" />
     <ProjectReference Include="..\EleCho.WpfUtilities\EleCho.WpfUtilities.csproj" />
   </ItemGroup>
