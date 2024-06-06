@@ -1,1 +1,1 @@
-# EleCho.WpfUtilities
+This repository is no longer being updated, please use EleCho.WpfSuite
